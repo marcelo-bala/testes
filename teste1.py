@@ -1,0 +1,5 @@
+Nome = input('Digite seu nome ')
+Salario = input('Qual o seu Salário Mensal?')
+Horas = input('Quantas horas trabalhadas no mês?')
+ValorHora = int(Salario) / int(Horas)
+print(Nome,', O Valor da sua Hora trabalhada é de:',round(ValorHora, 2))
